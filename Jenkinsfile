@@ -22,12 +22,6 @@ pipeline {
       }
     }
 
-    stage('Archive') {
-      steps {
-        archiveArtifacts '**/distribution/*.zip'
-      }
-    }
-
   }
   tools {
     maven 'maven'
