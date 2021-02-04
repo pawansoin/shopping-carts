@@ -5,7 +5,7 @@ pipeline{
 // uncomment the following lines by removing /* and */ to enable
 
     tools{
-       maven 'Maven' 
+       maven 'maven'
     }
   
 
